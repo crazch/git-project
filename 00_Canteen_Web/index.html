@@ -9,131 +9,163 @@
     />
     <title>The Little Canteen</title>
     <link rel="icon" href="test.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
+  <body id="home-body">
+    <div class="container">
+      <header>
+        <h1>The Little Canteen</h1>
+        <p class="canteen-description">Welcome to our Little Canteen</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="navbar-container">
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" class="active">Home</a>
+              </li>
+              <li>
+                <a href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a href="hours.html">Canteen Hours</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section>
+          <div class="canteen-front">
+            <div class="canteen-image">
+              <img
+                src="img/food.png"
+                alt="Inside Our Canteen"
+                width="706"
+                height="407"
+              />
+            </div>
+            <div class="canteen-history">
+              <h2>Our History</h2>
+              <p>
+                The Little Canteen began in 2010 as a small food corner built
+                from a group of students' shared love for delicious, affordable
+                meals. What started as a casual idea among friends quickly grew
+                into a favorite hangout spot known for its warm service and
+                mouth-watering recipes. Today, we’re still fueled by that same
+                spirit, great food, good vibes, and a little bit of chaos
+                between classes.
+              </p>
+              <h2>About <abbr title="The Little Canteen">TLC</abbr></h2>
+              <p>
+                We’re a humble canteen with a big heart. At The Little Canteen,
+                we serve everyday comfort food with flavor that feels like home.
+                From crispy snacks to filling rice dishes, everything is made
+                fresh, fast, and student-budget friendly. Whether you’re rushing
+                to class or chilling with friends, we’ve got a plate waiting for
+                you.
+              </p>
+            </div>
+          </div>
+        </section>
 
-  <body>
-    <header>
-      <h1>Welcome To The Little Canteen</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about"
-              >About<abbr title="The Little Canteen">LTC</abbr></a
-            >
-          </li>
-          <li>
-            <a href="#menu">Our Menu</a>
-          </li>
-          <li>
-            <a href="#hours.html">Canteen Hours</a>
-          </li>
-          <li>
-            <a href="#contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <section class="philosophy">
+          <h2>Our Philosophy</h2>
+          <p>
+            We believe that food should be more than just fuel, it should be an
+            experience. That’s why we focus on quality, simplicity, and
+            community. Every dish we serve reflects our values: affordability,
+            freshness, and a touch of joy. No overcomplication, no fake gourmet, just real food for real people.
+          </p>
+        </section>
 
-      <figure>
-        <img
-          src="img/food.png"
-          alt="Foods photo"
-          title="We love foods!"
-          width="400"
-          height="267"
-        />
-        <figcaption>Foods</figcaption>
-      </figure>
-    </header>
-    <hr />
-    <main>
-      <article id="about">
-        <h2>About <abbr title="The Little Canteen">LTC</abbr></h2>
-        <p>
-          <abbr title="The Little Canteen">LTC</abbr> was founded in
-          <time datetime="2010">2010</time>. Our shop was canteen from a
-          student's <strong>intresting idea</strong> 🧠🧠. We hope our canteen
-          adds a unique and intresting place to students.
-        </p>
-        <aside>
-          <h3>Nasi Goreng Trivia</h3>
-          <details>
-            <summary>When did nasi goreng first appear in Indonesia</summary>
-            <p>
-              Nasi goreng, or Indonesian fried rice, is believed to have
-              appeared in Indonesia around the 10th century, influenced by
-              Chinese immigrants and trade with China. (Source:
-              <cite
-                ><a
-                  href="https://www.quora.com/Who-invented-nasi-goreng-in-Indonesia"
-                  target="_blank"
-                  >Qoura</a
-                ></cite
-              >)
-            </p>
-          </details>
-        </aside>
-      </article>
-      <hr />
-      <article id="menu">
-        <h2>Our Menu</h2>
-        <table>
-          <caption>
-            Our Foods
-          </caption>
-          <thead>
-            <tr>
-              <th>Gorengan</th>
-              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
-              <th scope="col">Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" rowspan="3">Nasi Goreng</th>
-              <td>1</td>
-              <td>$1.50</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>$3.50</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>$2.50</td>
-            </tr>
-            <tr>
-              <th colspan="3">Ayam</th>
-            </tr>
-            <tr>
-              <th scope="row" rowspan="3">Nasi Ayam</th>
-              <td>1</td>
-              <td>$4.50</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>$3.75</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>$1.25</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="3">Chips &amp; Nasi $0.50</td>
-            </tr>
-          </tfoot>
-        </table>
-        <br />
-        <p>
-          <a href="#">Back To The Top</a>
-        </p>
-      </article>
-    </main>
-    <hr />
+        <section class="our-menu">
+          <h2>Our Food Menu</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Type</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nasi Goreng</td>
+                <td>Main Dish</td>
+                <td>Rp 15.000</td>
+              </tr>
+              <tr>
+                <td>Mie Ayam</td>
+                <td>Noodle</td>
+                <td>Rp. 12.000</td>
+              </tr>
+              <tr>
+                <td>Bakso</td>
+                <td>Meatball</td>
+                <td>Rp 13.000</td>
+              </tr>
+              <tr>
+                <td>Rendang</td>
+                <td>Spicy Meat</td>
+                <td>Rp. 15.000</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2>Our Drink Menu</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Type</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Es Teh</td>
+                <td>Cold Tea Drink</td>
+                <td>Rp. 5000</td>
+              </tr>
+              <tr>
+                <td>Jus Jeruk</td>
+                <td>Juice</td>
+                <td>Rp. 8000</td>
+              </tr>
+              <tr>
+                <td>Thai Tea</td>
+                <td>Milk Tea</td>
+                <td>Rp. 9000</td>
+              </tr>
+              <tr>
+                <td>Es Milo</td>
+                <td>Chocolate</td>
+                <td>Rp. 8000</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
     <footer>
-      <p>Copyright &copy; The Little Canteen</p>
+      <address>
+        <a href="" target="_blank">&copy;Our Little Canteen</a><br />
+        San Francisco<br />
+        USA
+      </address>
     </footer>
   </body>
 </html>

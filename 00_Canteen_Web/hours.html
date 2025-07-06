@@ -1,65 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="author" content="Ray" />
     <meta name="description" content="Store Hours for The Little Canteen" />
     <title>TLC Hours</title>
     <link rel="icon" href="test.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
-  <body>
-    <header>
-      <h1>The Little Canteen Hours</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/#about"
-              >About<abbr title="The Little Canteen">LTC</abbr></a
-            >
-          </li>
-          <li>
-            <a href="/#menu">Our Menu</a>
-          </li>
-          <li>
-            <a href="#contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
+  <body id="hours-body">
+    <div class="hours-container">
+      <header>
+        <div class="cafe-image">
+          <img src="img/cafetaria.png" alt="Cafetaria" />
+        </div>
+        <h1>The Little Canteen</h1>
+        <p class="canteen-description">Welcome to our gallery</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="navbar-container">
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a href="hours.html" class="active">Canteen Hours</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="hours-section">
+        <section class="hours-intro">
+          <h2>Our Opening Hours</h2>
+          <p>
+            We're always happy to serve you! Here’s when the kitchen is open:
+          </p>
+        </section>
 
-      <figure>
-        <img
-          src="img/beverage.png"
-          alt="Beverage photo"
-          title="We love fresh beverage!"
-          width="400"
-          height="267"
-        />
-        <figcaption>Beverage</figcaption>
-      </figure>
-    </header>
-    <hr />
-    <main>
-      <p>
-        We are open 5 days a week!
-      </p>
-      <dl>
-        <dt>Monday-Thursday</dt>
-        <dd>6am-5pm</dd>
-        <dt>Friday</dt>
-        <dd>6am-3pm</dd>
-      </dl>
-      <p>
-        <a href="#">Back To Top</a>
-      </p>
-    </main>
-    <hr />
+        <section class="hours-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>05:00 AM - 05:00 PM</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>06:00 AM - 04:00 PM</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>06:00 AM - 04:00 PM</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>06:00 AM - 04:00 PM</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>06:00 AM - 03:00 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>06:00 AM - 03:00 PM</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="hours-note">
+          <p><strong>Note:</strong> We are closed on national holidays. 🍛</p>
+        </section>
+      </main>
+    </div>
     <footer>
-      <p>Copyright &copy; The Little Canteen</p>
+      <address>
+        <a href="" target="_blank">&copy;Our Little Canteen</a><br />
+        San Francisco<br />
+        USA
+      </address>
     </footer>
   </body>
 </html>
