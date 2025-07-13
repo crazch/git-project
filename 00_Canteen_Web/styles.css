@@ -99,6 +99,7 @@ nav ul li a.active {
   flex-wrap: wrap;
   margin-top: 40px;
   gap: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .canteen-image,
@@ -109,7 +110,6 @@ nav ul li a.active {
 .canteen-image img {
   width: 100%;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   object-fit: cover;
 }
@@ -119,10 +119,8 @@ nav ul li a.active {
 }
 
 .canteen-history {
-  background-color: #fff;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .canteen-history h2 {
